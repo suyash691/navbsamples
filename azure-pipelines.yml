@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-#  name: Default
-   name: 'Hosted Windows 2019 with VS2019'
+  name: Default
+#   name: 'Hosted Windows 2019 with VS2019'
 #  demands:
 #    - msbuild
 #    - visualstudio
@@ -39,7 +39,7 @@ steps:
     platform: '$(BuildPlatform)'
     configuration: '$(BuildConfiguration)'
   continueOnError: true
-  enabled: false
+  enabled: true
 
 - task: PublishTestResults@2
   displayName: 'Publish Test Results **/ResultsFileSamples/VsTsResults/*.trx'
@@ -47,4 +47,4 @@ steps:
     testResultsFormat: VSTest
     testResultsFiles: '**/ResultsFileSamples/VsTsResults/*.trx'
   continueOnError: true
-  enabled: true
+  enabled: false
