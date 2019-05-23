@@ -46,5 +46,5 @@ steps:
   inputs:
     testResultsFormat: cTest
     testResultsFiles: '**/ResultsFileSamples/CtestResults.xml'
-  continueOnError: true
+  continueOnError: false
   enabled: true
