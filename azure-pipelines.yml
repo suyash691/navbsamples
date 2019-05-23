@@ -42,7 +42,7 @@ steps:
   enabled: false
 
 - task: PublishTestResults@2
-  displayName: 'Publish Test Results **/ResultsFileSamples/VsTsResults/*.trx'
+  displayName: 'Publish Test Results'
   inputs:
     testResultsFormat: cTest
     testResultsFiles: '**/ResultsFileSamples/CtestResults.xml'
