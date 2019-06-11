@@ -45,6 +45,6 @@ steps:
   displayName: 'Publish Test Results'
   inputs:
     testResultsFormat: NUnit
-    testResultsFiles: '**/ResultsFileSamples/test-nunit-suitnoendtime.xml'
+    testResultsFiles: '**/ResultsFileSamples/results-NUnit.xml'
   continueOnError: false
   enabled: true
