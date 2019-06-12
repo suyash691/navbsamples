@@ -44,7 +44,7 @@ steps:
 - task: PublishTestResults@2
   displayName: 'Publish Test Results'
   inputs:
-    testResultsFormat: NUnit
+    testResultsFormat: JUnit
     testResultsFiles: '**/ResultsFileSamples/56354-results.xml'
   continueOnError: false
   enabled: true
