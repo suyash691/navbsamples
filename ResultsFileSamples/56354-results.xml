@@ -130,4 +130,46 @@
       <skipped message="Skipped diff by request." type="skipped"/>
     </testcase>
   </testsuite>
+  <testsuite errors="0" failures="4" name="small" tests="109">
+    <testcase name="SAGD_IX_FM" time="12"/>
+    <testcase name="sepvals_api_inj" time="13"/>
+    <testcase name="sepvals_resv" time="10"/>
+    <testcase name="single_brine" time="10"/>
+    <testcase name="single_brine_polymer" time="10"/>
+    <testcase name="single_polymer" time="10"/>
+    <testcase name="skip_timestep" time="NA">
+      <skipped message="Skipped diff by request." type="skipped"/>
+    </testcase>
+    <testcase name="spe3g_nosep" time="10"/>
+    <testcase name="sugar_box_refined" time="4"/>
+    <testcase name="sugar_box_refined_2cpu" time="4"/>
+    <testcase name="sugar_box_simple" time="2"/>
+    <testcase name="superc" time="14"/>
+    <testcase name="superc_vfp_plugin" time="11"/>
+    <testcase name="surfactant_stage1" time="7"/>
+    <testcase name="surfactant_stage2" time="23"/>
+    <testcase name="surfactant_stage2_nv" time="17"/>
+    <testcase name="surf_poly_owg" time="10"/>
+    <testcase name="surf_poly_smooth_relperm" time="10"/>
+    <testcase name="surf_poly_type_II_minus" time="8"/>
+    <testcase name="temperature_dependent_heat_conductivity" time="12"/>
+    <testcase name="thermal" time="16"/>
+    <testcase name="thermal_csiw" time="13"/>
+    <testcase name="thermal_mixing_rule" time="16">
+      <failure message="Difference against Gold above tolerances." type="failure"/>
+    </testcase>
+    <testcase name="thp_gaslift_dfac" time="14"/>
+    <testcase name="thp_solvent" time="15"/>
+    <testcase name="tracer" time="20"/>
+    <testcase name="tranxyz_fault" time="12"/>
+    <testcase name="vappars" time="21"/>
+    <testcase name="well_trajectory_csv" time="10"/>
+    <testcase name="wm_gas_handling" time="14"/>
+    <testcase name="wm_gas_handling_py_qname" time="9"/>
+    <testcase name="wm_ix_comp" time="9"/>
+    <testcase name="wpimult_action" time="10"/>
+    <testcase name="ww3p_small" time="NA">
+      <skipped message="Skipped diff by request." type="skipped"/>
+    </testcase>
+  </testsuite>
 </testsuites>
