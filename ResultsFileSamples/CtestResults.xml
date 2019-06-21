@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="(empty)">
 <Testing>
-	<StartDateTime>May 13 14:59 Romance Daylight Time</StartDateTime>
-	<StartTestTime>1368449947</StartTestTime>
 	<TestList>
 		<Test>./cppcheck</Test>
 		<Test>E_/foo/sources/Logging-testU</Test>
