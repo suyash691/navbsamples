@@ -44,7 +44,7 @@ steps:
 - task: PublishTestResults@2
   displayName: 'Publish Test Results'
   inputs:
-    testResultsFormat: NUnit
-    testResultsFiles: '**/ResultsFileSamples/results-NUnit.xml'
+    testResultsFormat: CTest
+    testResultsFiles: '**/ResultsFileSamples/CtestResults.xml'
   continueOnError: false
   enabled: true
