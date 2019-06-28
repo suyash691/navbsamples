@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)">
+<Testing>
+	<StartDateTime>May 13 14:59 Romance Daylight Time</StartDateTime>
+	<StartTestTime>1368449947</StartTestTime>
+	<TestList>
+		<Test>./cppcheck</Test>
+	</TestList>
+	<Test Status="passed">
+		<Name>FileSystem-testU</Name>
+		<Path>E_/foo/sources</Path>
+		<FullName>E_/foo/sources/FileSystem-testU</FullName>
+		<FullCommandLine>E:\Tools\cmake\cmake-2.8.11-rc4-win32-x86\bin\cmake.exe &quot;-DTEST_OUTPUT_DIR:PATH=E:/foo/build-vs2008-visual/_cmake/modules/testU_FileSystem&quot; &quot;-P&quot; &quot;E:/foo/sources/modules/testU/FileSystem-testU.cmake&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0970097</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>E:\Tools\cmake\cmake-2.8.11-rc4-win32-x86\bin\cmake.exe &quot;-DTEST_OUTPUT_DIR:PATH=E:/foo/build-vs2008-visual/_cmake/modules/testU_FileSystem&quot; &quot;-P&quot; &quot;E:/foo/sources/modules/testU/FileSystem-testU.cmake&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value></Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<EndDateTime>May 13 14:59 Romance Daylight Time</EndDateTime>
+	<EndTestTime>1368449950</EndTestTime>
+	<ElapsedMinutes>0</ElapsedMinutes>
+</Testing>
+</Site>
