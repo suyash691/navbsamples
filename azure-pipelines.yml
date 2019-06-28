@@ -45,6 +45,6 @@ steps:
   displayName: 'Publish Test Results'
   inputs:
     testResultsFormat: CTest
-    testResultsFiles: '**/ResultsFileSamples/CtestResults1.xml'
+    testResultsFiles: '**/ResultsFileSamples/CtestResult1.xml'
   continueOnError: false
   enabled: true
