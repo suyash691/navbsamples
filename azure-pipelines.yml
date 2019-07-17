@@ -44,7 +44,7 @@ steps:
 - task: PublishTestResults@2
   displayName: 'Publish Test Results'
   inputs:
-    testResultsFormat: CTest
-    testResultsFiles: '**/ResultsFileSamples/CtestResult1.xml'
+    testResultsFormat: VSTest
+    testResultsFiles: '**/ResultsFileSamples/VsTsResults.trx'
   continueOnError: false
   enabled: true
