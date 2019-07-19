@@ -45,6 +45,6 @@ steps:
   displayName: 'Publish Test Results'
   inputs:
     testResultsFormat: VSTest
-    testResultsFiles: '**/ResultsFileSamples/VsTsResults/*.xml'
+    testResultsFiles: '**/ResultsFileSamples/VsTsResults/*.trx'
   continueOnError: false
   enabled: true
