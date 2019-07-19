@@ -45,6 +45,6 @@ steps:
   displayName: 'Publish Test Results'
   inputs:
     testResultsFormat: VSTest
-    testResultsFiles: '**/ResultsFileSamples/TestFileWithGoodFailedTests.trx'
+    testResultsFiles: '**/ResultsFileSamples/threepercent.trx'
   continueOnError: false
   enabled: true
