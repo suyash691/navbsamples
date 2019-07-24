@@ -45,6 +45,6 @@ steps:
   displayName: 'Publish Test Results'
   inputs:
     testResultsFormat: VSTest
-    testResultsFiles: '**/ResultsFileSamples/results-NUnit.xml'
+    testResultsFiles: '**/ResultsFileSamples/*.xml'
   continueOnError: false
   enabled: true
