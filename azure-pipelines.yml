@@ -21,14 +21,17 @@ variables:
 
 steps:
 - task: NuGetToolInstaller@0
+  enabled: false
 
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
+  enabled: false
 
 - task: MSBuild@1
   inputs:
     solution: 'FastTestProject/TestProject/TestProject.sln'
+  enabled: false
 
 - task: VSTest@2
   displayName: 'VsTest - testAssemblies'
