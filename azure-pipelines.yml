@@ -45,8 +45,8 @@ steps:
   displayName: 'Publish Test Results'
   inputs:
     testResultsFormat: NUnit
-    testResultsFiles: 
-      -'**/ResultsFileSamples/results-NUnit.xml'
-      -'**/ResultsFileSamples/NUnitResults.xml'
+    testResultsFiles: |
+      **/ResultsFileSamples/results-NUnit.xml
+      **/ResultsFileSamples/NUnitResults.xml
   continueOnError: false
   enabled: true
