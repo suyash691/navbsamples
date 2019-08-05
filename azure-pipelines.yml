@@ -49,7 +49,7 @@ steps:
   inputs:
     testResultsFormat: NUnit
     testResultsFiles: |
-      **/ResultsFileSamples/results-NUnit.xml
-      **/ResultsFileSamples/NUnitResults.xml
+      '**/ResultsFileSamples/results-NUnit.xml'
+      '**/ResultsFileSamples/NUnitResults.xml'
   continueOnError: false
   enabled: true
