@@ -18,7 +18,7 @@
                     <results>
                       <test-case name="NUnit.Tests.Assemblies.MockTestFixture.FailingTest" executed="True" result="Failure" success="False" time="0.013" asserts="0">
                         <failure>
-                          <message><![CDATA[Intentional failure\n ## Hello World]]></message>
+                          <message><![CDATA[Intentional failure]]>([Details](https://1esdocs.azurewebsites.net/test/CloudTest/How-Tos/Upload-Logs-to-Azure-DevOps.html)) ## Go to Attachments* tab to browse test logs</message>
                           <stack-trace><![CDATA[at NUnit.Tests.Assemblies.MockTestFixture.FailingTest () [0x00000] in /home/charlie/Dev/NUnit/nunit-2.5/work/src/tests/mock-assembly/MockAssembly.cs:121
 ]]></stack-trace>
                         </failure>
