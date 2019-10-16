@@ -48,6 +48,6 @@ steps:
   displayName: 'Publish Test Results'
   inputs:
     testResultsFormat: NUnit
-    testResultsFiles: '**/ResultsFileSamples/results-NUnit.xml'
+    testResultsFiles: '**/ResultsFileSamples/Nunit2Results.xml'
   continueOnError: false
   enabled: true
