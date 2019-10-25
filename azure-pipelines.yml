@@ -48,6 +48,6 @@ steps:
   displayName: 'Publish Test Results'
   inputs:
     testResultsFormat: VSTest
-    testResultsFiles: 'C:\Users\susaluj\Desktop\*.trx'
+    testResultsFiles: '**/ResultsFileSamples/VsTsResults/*.trx'
   continueOnError: false
   enabled: true
