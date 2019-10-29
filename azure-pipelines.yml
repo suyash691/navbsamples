@@ -41,6 +41,7 @@ steps:
      !**\obj\**
     platform: '$(BuildPlatform)'
     configuration: '$(BuildConfiguration)'
+    codeCoverageEnabled: true
   continueOnError: true
   enabled: false
 
